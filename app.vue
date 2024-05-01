@@ -81,7 +81,7 @@ const llm = [
         image: "llama-hugging-face-space.jpg",
       },
       {
-        name: "Grok xAI",
+
         url: "https://grok.x.ai/",
         image: "grok-ai.jpg",
       },
@@ -548,7 +548,6 @@ useSeoMeta({
 
 <template>
   <div class="relative">
-    <!-- <div class="w-60 h-10 border bg-slate-50 z-0 rounded-full mx-auto sticky top-16"></div> -->
     <div class="text-center text-4xl font-bold m-12 mt-14">AI精选合集</div>
     <div v-for="(obj, index) in llm" :key="index" class="w-11/12 md:w-8/12 mx-auto mb-10 mt-16">
       <div v-for="(value, key) in obj" :key="key" >
