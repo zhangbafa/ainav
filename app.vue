@@ -81,7 +81,7 @@ const llm = [
         image: "llama-hugging-face-space.jpg",
       },
       {
-
+        name:"Grok",
         url: "https://grok.x.ai/",
         image: "grok-ai.jpg",
       },
@@ -220,6 +220,11 @@ const llm = [
         url: "https://devv.ai/",
         image: "devv-ai.jpg",
       },
+      {
+        name:"Felo Search",
+        url:"https://search.glarity.ai/",
+        image:"glarity.webp"
+      }
     ],
   },
   {
