@@ -20,7 +20,7 @@ const llm = [
       {
         name: "Jan",
         url: "https://jan.ai/",
-        image: "Jan.png",
+        image: "jan.png",
       },
       {
         name: "Gpt4All",
@@ -32,19 +32,19 @@ const llm = [
   {
     "WebUI":[
       {
-        name:'OpenWebUI',
+        name:'NextChat',
         url:'https://app.nextchat.dev/',
-        image:'NextChat.png'
+        image:'nextchat.png'
       },
       {
         name:'lobehub',
         url:'https://chat-preview.lobehub.com/',
-        image:'LobeHub.webp'
+        image:'lobehub.webp'
       },
       {
         name:'OpenWebUI',
         url:'https://openwebui.com/',
-        image:'OpenWebUI.png'
+        image:'openwebui.png'
       },
       {
         name:'Poe',
