@@ -54,6 +54,25 @@ const llm = [
     ]
   },
   {
+    "框架/工具":[
+      {
+        name:"LangChain",
+        url:"https://www.langchain.com",
+        image:"langchain.png"
+      },
+      {
+        name:'Semantic Kernel',
+        url:"https://aka.ms/semantic-kernel",
+        image:"wei-ruan-yu-yin.jpg",
+      },
+      {
+        name:"Llamaindex",
+        url:"https://www.llamaindex.ai/",
+        image:"llamaindex.png"
+      }
+    ]
+  },
+  {
     "LLM（全球）": [
       {
         name: "ChatGPT",
@@ -561,7 +580,7 @@ useSeoMeta({
           <div v-for="(item, i) in value" :key="i" class="text-center">
           <div class="border rounded-md shadow-sm hover:bg-gray-100 transition duration-300">
             <a :href="item.url" target="_blank" class="block w-full h-full p-4">
-              <img :src="'/downloads/' + item.image" :alt="item.name" style="width: 50px;min-height:50px;border-radius: 100%;margin:0 auto"/>
+              <img :src="'/downloads/' + item.image" :alt="item.name" style="width: 50px;min-height:50px;border-radius: 10px;margin:0 auto"/>
               <p class="mt-4 text-gray-500 dark:text-gray-500">{{ item.name }}</p>
             </a>
           </div>
