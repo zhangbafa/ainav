@@ -347,12 +347,7 @@ const llm = [
         name: "Diffus",
         url: "https://www.diffus.me/",
         image: "diffus.jpg",
-      },
-      {
-        name: "Code Former",
-        url: "https://huggingface.co/spaces/sczhou/CodeFormer",
-        image: "code-former.svg",
-      },
+      }
     ],
   },
   {
