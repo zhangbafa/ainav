@@ -1,5 +1,15 @@
 const search = [
   {
+    name: "360",
+    url: "https://www.sou.com",
+    image: "360sou.png",
+  },
+  {
+    name: "Morphic",
+    url: "https://www.morphic.sh/",
+    image: "morphic.png",
+  },
+  {
     name: "Perplexity",
     url: "https://www.perplexity.ai/",
     image: "perplexity.jpg",
